@@ -24,3 +24,6 @@ jobs:
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+        - name: Run an arbitrary command
+          run: echo "This is an arbitrary command"
+
